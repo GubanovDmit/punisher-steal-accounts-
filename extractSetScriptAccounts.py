@@ -1,12 +1,9 @@
 import requests
 import json
 import datetime
-
 import dateutil.parser
 
-
 alreadry_in_list = []
-
 
 with open("setAccount.txt","w+") as f:
 	query = " https://api.testnet.wavesplatform.com/v0/transactions/set-script?&sort=desc&limit=100"
